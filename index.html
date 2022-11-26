@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+        
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h3>E-Commerce</h3>
+        </div>
+           <ul class="ele">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#products">Products</a></li>
+              <li><a href="#" id="a-open">Account</a></li>
+              <i class='bx bx-shopping-bag' id="cartIcon"></i>
+              <button id="menu"><i class='bx bx-menu' ></i></button>
+           </ul>
+           
+    </header>
+
+    <div id="menu-items" class="">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#" id="a-open1">Account</a></li>
+    </div>
+
+    <div class="" id="pr">
+        <img src="img/profile.jpg" alt="">
+        <div class="name">
+            <h2 class="h">Name </h2>
+            <h2 class="d">Dinesh Kumar</h2>
+        </div>
+        <div class="name">
+            <h2 class="h">Mobile</h2>
+            <h2 class="d">9988776655</h2>
+        </div>
+        <div class="name">
+            <h2 class="h">Address</h2>
+            <h2 class="d"> Chennai,Tamilnadu</h2>
+        </div>
+        <i class="bx bx-x" id="acc-close"></i>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="cart" id="cart-in">
+        <h2 class="cart-title">Your Cart</h2>
+        <div class="cart-content">
+            <!--
+            <div class="cart-box">
+                <img src="img/profile1.jpeg" alt="" class="cart-img">
+                <div class="detail-box">
+                    <div class="cart-product-title">Head phone</div>
+                    <div class="cart-price">$25</div>
+                    <input type="number" value="1" class="cart-quantity">
+                </div>
+                <i class="bx bxs-trash-alt cart-remove"></i>
+            </div> -->
+
+
+        </div>
+        <div class="total">
+            <div class="total-title">total</div>
+            <div class="total-price">$0</div>
+        </div>
+        <button type="button" class="btn-buy">Buy Now</button>
+        <i class="bx bx-x" id="close-cart"></i>
+    </div>
+
+    <!--page section starts , Home page-->
+
+    <section class="page-Container">
+
+        <div class="home" id="home">
+            <div class="content">
+                <h5>Trade-in-offer</h5>
+                <h2>Super Value deals</h2>
+                <h2>On all products</h2>
+                <p>Save more with Coupens & upto <span>70%</span>off</p>
+                <button><a href="#products">Shop Now</a></button>
+            </div>
+            <img src="img/home-img.png" alt="">
+
+        </div>
+
+
+
+        <div class="products" id="products">
+            <div class="p-title">
+               <h1>Featured Products</h1>
+               <h3>Summer Collections New Morden Design </h3>
+            </div>
+
+            <div class="p-container">
+
+                <div class="p-box">
+                    <img class="p-image" src="img/blacktshirt.jpg" alt="">
+                   
+                    <div class="p-details">
+                        <h3 class="p-name">Cartoon Astronat T-shirt</h3>
+                        <div class="p-ratings">
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>  
+                        </div>
+                        <h2 class="p-price">$58</h2>
+                    </div>
+                    <i class='bx bxs-cart-alt add-cart' id="add-cart"></i>
+                </div>
+
+                
+
+                <div class="p-box">
+
+                    <img class="p-image" src="img/blue-t.jpg" alt="">
+                   
+                    <div class="p-details">
+                        <h3 class="p-name">Cartoon Hoodie Women</h3>
+                        <div class="p-ratings">
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star bstar'></i>
+                            <i class='bx bxs-star bstar'></i>
+                             
+                        </div>
+                        <h2 class="p-price">$58</h2>
+                    </div>
+                    <i class='bx bxs-cart-alt add-cart' id="add-cart"></i>
+                </div>
+
+                <div class="p-box">
+
+                    <img class="p-image" src="img/jean1.jpg" alt="">
+                   
+                    <div class="p-details">
+                        <h3 class="p-name">LZard Jeans</h3>
+                        <div class="p-ratings">
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star bstar'></i>
+                            
+                        </div>
+                        <h2 class="p-price">$49</h2>
+                    </div>
+                    <i class='bx bxs-cart-alt add-cart' id="add-cart"></i>
+                </div>
+
+                <div class="p-box">
+
+                    <img  class="p-image" src="img/jean2.jpg" alt="">
+                   
+                    <div class="p-details">
+                        <h3 class="p-name">Fozen Jeans</h3>
+                        <div class="p-ratings">
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>  
+                        </div>
+                        <h2 class="p-price">$29</h2>
+                    </div>
+                    <i class='bx bxs-cart-alt add-cart' id="add-cart"></i>
+                </div>
+
+
+                <div class="p-box">
+
+                    <img  class="p-image" src="img/shoes1.jpg" alt="">
+                   
+                    <div class="p-details">
+                        <h3 class="p-name">Puma Shoes</h3>
+                        <div class="p-ratings">
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>  
+                        </div>
+                        <h2 class="p-price">$78</h2>
+                    </div>
+                    <i class='bx bxs-cart-alt add-cart' id="add-cart"></i>
+                </div>
+
+
+                <div class="p-box">
+
+                    <img  class="p-image" src="img/shoes2.jpg" alt="">
+                   
+                    <div class="p-details">
+                        <h3 class="p-name">K-FOOTLANCE</h3>
+                        <div class="p-ratings">
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>  
+                            <i class='bx bxs-star bstar'></i>
+                        </div>
+                        <h2 class="p-price">$99</h2>
+                    </div>
+                    <i class='bx bxs-cart-alt add-cart' id="add-cart"></i>
+                </div>
+
+                <div class="p-box">
+
+                    <img  class="p-image" src="img/sunglass.jpg" alt="">
+                   
+                    <div class="p-details">
+                        <h3 class="p-name">Sunglass</h3>
+                        <div class="p-ratings">
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star bstar'></i>
+                            <i class='bx bxs-star bstar'></i>
+                             
+                        </div>
+                        <h2 class="p-price">$39.99</h2>
+                    </div>
+                    <i class='bx bxs-cart-alt add-cart' id="add-cart"></i>
+                </div>
+
+                <div class="p-box">
+
+                    <img  class="p-image" src="img/wallet.jpg" alt="">
+                   
+                    <div class="p-details">
+                        <h3 class="p-name">Hornbull Wallet</h3>
+                        <div class="p-ratings">
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star bstar'></i>
+                        </div>
+                        <h2 class="p-price">$19.99</h2>
+                    </div>
+                    <i class='bx bxs-cart-alt add-cart' id="add-cart"></i>
+                </div>
+
+
+                <div class="p-box">
+
+                    <img  class="p-image" src="img/watch.jpg" alt="">
+                   
+                    <div class="p-details">
+                        <h3 class="p-name">Casio EX187</h3>
+                        <div class="p-ratings">
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>  
+                        </div>
+                        <h2 class="p-price">$299</h2>
+                    </div>
+                    <i class='bx bxs-cart-alt add-cart' id="add-cart"></i>
+                </div>
+
+
+                <div class="p-box">
+
+                    <img  class="p-image" src="img/yello-t.jpg" alt="">
+                   
+                    <div class="p-details">
+                        <h3 class="p-name">Foxter Hoodie</h3>
+                        <div class="p-ratings">
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star star'></i>
+                            <i class='bx bxs-star bstar'></i>
+                        </div>
+                        <h2 class="p-price">$39.99</h2>
+                    </div>
+                    <i class='bx bxs-cart-alt add-cart' id="add-cart"></i>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer">
+
+            <div class="footer-box" id="company">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="">Aubout Us</a></li>
+                    <li><a href="">Our Services</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Affiliate Program</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-box" id="get-help">
+                <h3>Get-Help</h3>
+                <ul>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Shipping</a> </li>
+                    <li><a href="">Returns</a></li>
+                    <li><a href="">Order Status</a></li>
+                    <li><a href="">Payment Options</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-box" id="Online-Shop">
+                <h3>Online Shop</h3>
+                <ul>
+                    <li><a href="">Watch</a></li>
+                    <li><a href="">glass</a></li>
+                    <li><a href="">Dress</a></li>
+                    <li><a href="">Shoes</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-box" id="follow">
+                <h3>Follow Us</h3>
+                <ul>
+                   <li><i class='bx bxl-facebook-circle'></i></li>
+                   <li><i class='bx bxl-twitter' style='color:#ffffff' ></i></li>
+                   <li><i class='bx bxl-instagram-alt'></i></li>
+                   <li><i class='bx bxl-linkedin-square'></i></li>
+                </ul>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+ 
+<script src="shop.js"></script>
+</body>
+</html>
